@@ -1,12 +1,12 @@
 # 3 Yıllık Bölgesel Satış Büyüme Analizi
 
-## 1. Arka Plan ve Genel Bakış
+## Arka Plan ve Genel Bakış
 
 Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansını incelemektedir. 2020 ve 2021 yıllarındaki 6,9 Milyon $'lık durağan cironun ardından, 2022'de %146'lık ani ve açıklanmamış bir büyümeyle 17,0 Milyon $'a ulaşılmıştır.
 
 **İş Hedefi:** 2022'deki bu olağanüstü büyümenin kök nedenlerini teşhis etmek; başarının ana itici güçlerini (bölge, temsilci, ürün) izole etmek; düşük performanslı alanları belirlemek ve 2023-2024 dönemi için sürdürülebilir, ölçeklenebilir bir büyüme stratejisi oluşturmak üzere eyleme geçirilebilir, veriye dayalı tavsiyeler sunmaktır.
 
-## 2. Veri Yapısı
+## Veri Yapısı
 
 Analiz, 3 yıllık (2020-2022) dönemi kapsayan 17 adet toplu (aggregated) satış raporu üzerinden yürütülmüştür. Veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
 
@@ -22,7 +22,7 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 
 **ERD YAPISI :**
 
-## 3. Yönetici Özeti
+## Yönetici Özeti
 
 **Büyüme Odaklıdır, Yaygın Değildir:** 2022'deki %146'lık ciro artışı, şirketin tamamına yayılan organik bir başarı değildir. Büyüme, spesifik olarak 2022'nin 4. Çeyreği'nde (Kasım: 4,1M$, Aralık: 4,2M$) yaşanan ani bir patlamadan kaynaklanmaktadır.
 
@@ -32,7 +32,7 @@ Bu yapı, FactSales tablosundaki her işlemin; bir zaman, bölge, temsilci ve ü
 
 **Yüksek Bağımlılık Riski ve Durağanlık:** Bu durum, cironun %31'inin tek bir kişiye (CANBERK) ve %50'sinin iki ürüne bağlı olması nedeniyle yüksek bir operasyonel risk yaratmaktadır. Eş zamanlı olarak, East ve MidWest bölgeleri 2022'deki bu patlamadan hiç faydalanamamış ve GÜLAY (3,9M $) gibi temsilciler liderlerin çok altında kalmıştır.
 
-## 4. Derinlemesine Bakış
+## Derinlemesine Bakış
 
 Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı formülü" ve "başarısızlık nedeni" ortaya çıkmıştır:
 
@@ -42,7 +42,7 @@ Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı f
 
 **Kaçırılan Fırsat:** East ve MidWest bölgelerinin 2020-2021 seviyelerinde kalması, bu bölgelerde "başarı formülünün" ya bilinmediğini ya da uygulanmadığını göstermektedir.
 
-## 5. Tavsiyeler
+## Tavsiyeler
 
 Analiz sonuçlarına dayanarak, 2023-2024 dönemi için büyümenin sürdürülebilir kılınması ve riskin azaltılması amacıyla aşağıdaki 3 somut eylem önerilmektedir:
 
