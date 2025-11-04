@@ -2,7 +2,7 @@
 
 ## Arka Plan ve Genel Bakış
 
-Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansını incelemektedir. 2020 ve 2021 yıllarındaki 6,9 Milyon $'lık durağan cironun ardından, 2022'de %146'lık ani ve açıklanmamış bir büyümeyle 17,0 Milyon $'a ulaşılmıştır.
+Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansını incelemektedir. 2020 ve 2021 yıllarındaki 6,9 Milyon $ seviyelerinde ki durağan cironun ardından, 2022 yılında %146 olan ani ve açıklanmamış bir büyümeyle 17,0 Milyon $ seviyesine ulaşılmıştır.
 
 **İş Hedefi:** 2022'deki bu olağanüstü büyümenin kök nedenlerini teşhis etmek; başarının ana itici güçlerini (bölge, temsilci, ürün) izole etmek; düşük performanslı alanları belirlemek ve 2023-2024 dönemi için sürdürülebilir, ölçeklenebilir bir büyüme stratejisi oluşturmak üzere eyleme geçirilebilir, veriye dayalı tavsiyeler sunmaktır.
 
