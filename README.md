@@ -8,7 +8,7 @@ Bu analiz projesi, şirketin son üç yıllık (2020-2022) satış performansın
 
 ## Veri Yapısı
 
-Analiz, 3 yıllık (2020-2022) dönemi kapsayan satış raporu üzerinden yürütülmüştür. Veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
+Analiz, 3 yıllık (2020-2022) dönemi kapsayan satış raporu üzerinden yürütülmüştür ve veri modeli, çok boyutlu analize izin veren bir "Yıldız Şeması" (Star Schema) yapısını yansıtmaktadır:
 
 **Ana Tablo (Fact Table):** FactSales (Toplam Satış $, İşlem Sayısı gibi metrikleri içerir).
 
@@ -48,14 +48,14 @@ Tüm detay raporları çapraz analiz edildiğinde, şirketin net bir "başarı f
 
 Analiz sonuçlarına dayanarak, büyümenin sürdürülebilir kılınması ve riskin azaltılması amacıyla aşağıdaki 3 somut eylem önerilmektedir:
 
-**Riski Azaltın ve Başarıyı Kurumsallaştırın (Acil):**
+**Riski Azaltın ve Başarıyı Kurumsallaştırma:**
 
 CANBERK'in %31'lik ciro bağımlılığı acil bir risktir. CANBERK'in West bölgesinde CAR1/CAR5 için kullandığı satış stratejisi, müşterileri ve metodolojisi derhal belgelenmeli ve diğer üst düzey temsilcilere (MURAT, MİRAÇ) aktarılarak bilgi kurumsallaştırılmalı ve risk dağıtılmalıdır.
 
-**Düşük Performansı İyileştirin ve Başarıyı Kopyalayın (Orta Vade):**
+**Düşük Performansı İyileştirin ve Başarıyı Kopyalayama:**
 
-GÜLAY ve SUNA için, dağınık portföy yönetimi yerine, kanıtlanmış "başarı formülüne" odaklanan bir "Performans İyileştirme Planı" hazırlanmalıdır. Bu temsilcilere spesifik olarak CAR1/CAR5 ürünlerini West/NorthWest bölgelerinde satma hedefleri verilmelidir.
+GÜLAY ve SUNA için, dağınık portföy yönetimi yerine, kanıtlanmış "başarı formülüne" odaklanan bir "Performans İyileştirme Planı" hazırlanmalıdır ve bu temsilcilere spesifik olarak CAR1/CAR5 ürünlerini West/NorthWest bölgelerinde satma hedefleri verilmelidir.
 
-**Stratejik Nedeni Araştırın (Stratejik):**
+**Stratejik Nedeni Araştırma:**
 
-"Neden sadece CAR1 ve CAR5? Neden özellikle West Bölgesi?" sorularının cevabı için stratejik bir saha ve müşteri araştırması yapılmalıdır. Bu iki ürün birbiriyle ilişkili mi (bundle)? Bu bölgede yeni bir müşteri segmenti mi keşfedildi? Bu soruların cevabı, bu başarının tesadüfi olup olmadığını veya ölçeklenebilir bir büyüme stratejisinin temelini oluşturup oluşturmadığını belirleyecektir.
+"Neden sadece CAR1 ve CAR5? Neden özellikle West Bölgesi?" sorularının cevabı için stratejik bir saha ve müşteri araştırması yapılmalıdır ve bu iki ürün birbiriyle ilişkili mi (bundle)? Bu bölgede yeni bir müşteri segmenti mi keşfedildi? Bu soruların cevabı, bu başarının tesadüfi olup olmadığını veya ölçeklenebilir bir büyüme stratejisinin temelini oluşturup oluşturmadığını belirleyecektir.
